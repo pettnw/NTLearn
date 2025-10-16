@@ -1,0 +1,93 @@
+<template>
+  <div class="container my-5">
+    <!-- ส่วนหัว -->
+    <section
+      class="p-5 mb-5 rounded text-center text-white shadow-lg position-relative overflow-hidden"
+      style="background: linear-gradient(135deg, #0d6efd, #6610f2);"
+    >
+      <div class="position-relative" style="z-index: 2;">
+        <h1 class="display-5 fw-bold mb-3">
+          <i class="bi bi-info-circle-fill me-2"></i>เกี่ยวกับ
+          <span class="text-warning">NTLearn</span>
+        </h1>
+        <p class="lead mb-0">
+          แหล่งรวมบทความ ความรู้ และคอร์สสั้น ๆ ที่อ่านเข้าใจง่าย เหมาะกับทุกคนที่อยากเริ่มต้นเรียนรู้
+        </p>
+      </div>
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="background: rgba(255,255,255,0.05) url('https://www.transparenttextures.com/patterns/cubes.png'); z-index:1;"
+      ></div>
+    </section>
+
+    <!-- เนื้อหาเกี่ยวกับ -->
+    <section class="text-center mb-5">
+      <div class="mx-auto" style="max-width: 800px;">
+        <h3 class="fw-bold text-primary mb-3">เราเป็นใคร?</h3>
+        <p class="text-muted fs-5">
+          <strong>NTLearn</strong> เป็นเว็บไซต์ที่มุ่งเน้นการเผยแพร่ความรู้สั้น ๆ
+          เข้าใจง่ายในรูปแบบที่เหมาะกับผู้เริ่มต้น
+          เราเชื่อว่าการเรียนรู้ไม่ควรซับซ้อนและสามารถเข้าถึงได้ทุกคน ไม่ว่าจะอยู่ที่ไหนก็ตาม
+        </p>
+        <p class="text-muted fs-6">
+          เว็บไซต์นี้สร้างขึ้นโดยทีมพัฒนาที่รักการแบ่งปันความรู้ด้านเทคโนโลยี การออกแบบ และทักษะชีวิต
+          เพื่อช่วยให้คุณพัฒนาไปข้างหน้าได้อย่างมั่นใจ 💪
+        </p>
+      </div>
+    </section>
+
+    <!-- ทีมผู้พัฒนา -->
+    <section class="text-center">
+      <h4 class="fw-bold text-primary mb-4">
+        <i class="bi bi-people-fill me-2"></i>ทีมผู้พัฒนา
+      </h4>
+
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-lg-3 mb-4" v-for="member in team" :key="member.name">
+          <div class="card border-0 shadow-sm h-100 hover-card">
+            <img
+              :src="member.image"
+              alt="member"
+              class="card-img-top rounded-circle mx-auto mt-4"
+              style="width: 120px; height: 120px; object-fit: cover;"
+            />
+            <div class="card-body">
+              <h5 class="fw-semibold">{{ member.name }}</h5>
+              <p class="text-muted small">{{ member.role }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup>
+const team = [
+  {
+    name: 'จักรี',
+    role: 'Frontend Developer',
+    image: 'https://scontent.fbkk12-6.fna.fbcdn.net/v/t39.30808-6/476835293_1675968006652310_3692052797465263996_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5biiOAEP-aYQ7kNvwGXb3hB&_nc_oc=AdmEiJPWQmHnGOPSW6d7S_6VhEqlxXaFeK-mbneB7Y-uLY4nl4_lkwsc6k6JlDGOlNu82vZJ-SRfwRNaFGZA0tOX&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=VxiTU097eZ7rv3z5yAG_vg&oh=00_Affk-rySYj7I9joGuvPL8jq61uLRJ4Eg_UX-HwcxWLFE4g&oe=68F6F8E4',
+  },
+  {
+    name: 'คุณานนต์',
+    role: 'UI/UX Designer',
+    image: 'https://scontent.fbkk8-2.fna.fbcdn.net/v/t39.30808-6/484073611_1561423638016853_2871079551983758392_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E4Sun12sTIoQ7kNvwEPUYjZ&_nc_oc=AdnCTSuvTwafrN3d3GbkGJim1gCWymJeMQCVYdp61dlWp6Vtm68OA4A22iTW-TmRoJSyXlFuQ8jSdRGbv3hr8h3m&_nc_zt=23&_nc_ht=scontent.fbkk8-2.fna&_nc_gid=LRfGTlvzAjHm10LJ1Q0U5g&oh=00_Afcxwzm8idoPIAf1Na0xacL5M2SQpewEMkFCTsyOt1UcYA&oe=68F70B81',
+  },
+  {
+    name: 'ภาณุพร',
+    role: 'Backend Developer',
+    image: 'https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/339991342_181541541360822_1170375190936992761_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=v8GeXeaxMSkQ7kNvwHuz690&_nc_oc=AdkEPoDOlqgdntzOl5vJ6iWMBOJHD_urQKVgjrsB6K1jOw1Qk3o5u_hYrXyj8Mrc-LffhMiIiR4qUl9hdfmYM0qc&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=hAlgY_F_lIZn3WIClyRqNg&oh=00_AfeIlQoRB1eOYEyJw6HQttJBD71koukYWcZ7G-5dunoS_Q&oe=68F6F255',
+  },
+]
+</script>
+
+<style scoped>
+.hover-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.15);
+}
+</style>
