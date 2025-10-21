@@ -67,17 +67,17 @@ const team = [
   {
     name: 'จักรี',
     role: 'Frontend Developer',
-    image: 'https://scontent.fbkk12-6.fna.fbcdn.net/v/t39.30808-6/476835293_1675968006652310_3692052797465263996_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5biiOAEP-aYQ7kNvwGXb3hB&_nc_oc=AdmEiJPWQmHnGOPSW6d7S_6VhEqlxXaFeK-mbneB7Y-uLY4nl4_lkwsc6k6JlDGOlNu82vZJ-SRfwRNaFGZA0tOX&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=VxiTU097eZ7rv3z5yAG_vg&oh=00_Affk-rySYj7I9joGuvPL8jq61uLRJ4Eg_UX-HwcxWLFE4g&oe=68F6F8E4',
+    image: 'https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/475018835_1665499844365793_3595108839761087320_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=A3ziAVacd_QQ7kNvwF8xmYa&_nc_oc=Adlq3a9wwMJ2OqYnH8KCBxMOC9m_oB0fZm_EAhYVCduRishgcB_fLgRM6KZBhZTIJWjCTMHu8-uobL_MT32i_ciz&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=CPcnf04K-BfeEAeQ7-KUZQ&oh=00_AffyjJ1rXQEgVEXNtgEO8z3PmUsuwXxErRs55RyzS1fPJQ&oe=68FCEEFD',
   },
   {
     name: 'คุณานนต์',
     role: 'UI/UX Designer',
-    image: 'https://scontent.fbkk8-2.fna.fbcdn.net/v/t39.30808-6/484073611_1561423638016853_2871079551983758392_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E4Sun12sTIoQ7kNvwEPUYjZ&_nc_oc=AdnCTSuvTwafrN3d3GbkGJim1gCWymJeMQCVYdp61dlWp6Vtm68OA4A22iTW-TmRoJSyXlFuQ8jSdRGbv3hr8h3m&_nc_zt=23&_nc_ht=scontent.fbkk8-2.fna&_nc_gid=LRfGTlvzAjHm10LJ1Q0U5g&oh=00_Afcxwzm8idoPIAf1Na0xacL5M2SQpewEMkFCTsyOt1UcYA&oe=68F70B81',
+    image: 'https://scontent.fbkk12-6.fna.fbcdn.net/v/t39.30808-6/484073611_1561423638016853_2871079551983758392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=sMk6VnltfbYQ7kNvwG62oFL&_nc_oc=AdkfQU9s9x7bsJWbEGFG3h-EoKhWm_3Jv0R36kGcUKr14AFn-Wq-k3s43RPMPrKWB3_MMuXoN7Mwe4QuE2V5v0Wy&_nc_zt=23&_nc_ht=scontent.fbkk12-6.fna&_nc_gid=EkndccgZQFvM18c9Caz3Sw&oh=00_AfdsNsUU8VVO2XvSm60lNQfyNi8ht3HclKjC0uNhX2eJcg&oe=68FCFA41',
   },
   {
     name: 'ภาณุพร',
     role: 'Backend Developer',
-    image: 'https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/339991342_181541541360822_1170375190936992761_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=v8GeXeaxMSkQ7kNvwHuz690&_nc_oc=AdkEPoDOlqgdntzOl5vJ6iWMBOJHD_urQKVgjrsB6K1jOw1Qk3o5u_hYrXyj8Mrc-LffhMiIiR4qUl9hdfmYM0qc&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=hAlgY_F_lIZn3WIClyRqNg&oh=00_AfeIlQoRB1eOYEyJw6HQttJBD71koukYWcZ7G-5dunoS_Q&oe=68F6F255',
+    image: 'https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/339991342_181541541360822_1170375190936992761_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=P0KCw7UWF2QQ7kNvwF11LTG&_nc_oc=Adm-t7KJ-57dXgLBUpcHo4M5waLDIFdRKZe6w23DYEF7k0nQbadAp9FHu3Dq_SMI4SxSb4WKmGzzUpl5ECrh5O5z&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=RqAZE_50SviFTTJ529512w&oh=00_AffoJlXzrnJhBE4QIO_E_qXsG3lSY0nvQqM7ClVx622whw&oe=68FCE115',
   },
 ]
 </script>
